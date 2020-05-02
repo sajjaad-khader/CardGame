@@ -110,7 +110,7 @@ public class GameBoard extends JFrame implements ActionListener {
                               
                                  card2.restore();
                                  card1=null;
-                                 card2= null;
+                                 card2= (CardButton)new Object();
                               }
                            }
                         }
